@@ -1,1 +1,13 @@
-this is a archive in english
+git init
+
+git status
+
+git add .
+
+git add <file>
+
+git commit -m 'message'
+
+git rm <file>
+
+git --cached <file>
