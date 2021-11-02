@@ -11,3 +11,7 @@ git commit -m 'message'
 git rm <file>
 
 git --cached <file>
+
+git log
+
+git log --stat /// *** ver todos los cambios realizados ***
