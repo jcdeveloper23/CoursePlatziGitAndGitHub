@@ -15,4 +15,20 @@ git --cached <file>
 git log
 
 git log --stat /// *** ver todos los cambios realizados ***
-Test
+
+
+git config --list
+
+git config --global user.email "jcdeveloper23@gmail.com"
+
+git config --global user.name "Jeans Carlos Rodriguez"
+
+/// *** Generar cave publica y rivada ***
+ssh-keygen -t rsa -b 4096 -C "jcdeveloper23@gmail.com"
+
+ls -al
+/// ***  cat mas nombre de archivo para verlo en la consola ***
+cat id_rsa.pub
+
+/// *** Validar que eell servvidor de claves eeste corriendo ***
+eval "$(ssh-agent -s)"
